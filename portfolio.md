@@ -6,7 +6,7 @@ layout: work
 title: Portfolio
 ---
 
-###### Updated March 2023
+##### Updated March 2023
 The following is a nonexhaustive list of my work completed during my time at Google.
 
 ## Highlights:
