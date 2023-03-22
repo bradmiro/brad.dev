@@ -26,7 +26,7 @@ site_url: brad.dev
 remote_theme: samarsault/plainwhite-jekyll
 plainwhite:
   name: Brad Miro
-  tagline: Engineer, Big data + ML. Currently at Google.
+  tagline: Google Cloud Developer Advocate
   
   social_links:
     twitter: bradmiro
