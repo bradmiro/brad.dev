@@ -10,7 +10,8 @@ I’ve never considered myself a particularly "unhealthy" person. However, as of
 
 April 14th, 2025, was the day I stopped making excuses and locked in. I had the dream of making that before and after Instragram post one year later. And what a journey the last 365 days have been. 
 
-<!-- <pictures> -->
+<img src="../_images/april25.jpeg" style="width: 48%; height: 600px; object-fit: cover;" />
+<img src="../_images/april26.jpeg" style="width: 48%; height: 600px; object-fit: cover;" />
 
 I want to share everything I learned in my journey to go from someone who rarely exercised to someone who regularly does 4 times a week and lost 45 lbs over the span of a year.
 
@@ -24,8 +25,6 @@ Some relevant background information:
 
 If I wanted to achieve a body I always wanted, I knew I needed to dial in both fitness and nutrition. At around 227 lbs at the start, I didn’t exactly know how much I needed to lose, so I started out with a goal of getting down to 210. Once I got there, then it was to hit 200. Then 190. And now, I’m sitting here typing this at 182, with some of that being more muscle than when I started. Here’s how I did it, and I encourage you to to your own research as well.
 
-
-
 ### Nutrition
 
 I began my journey working with a registered dietitian. Boy did I not know what I did not know! My RD helped me better understand the relationship our body has with the various macro and micro nutrients While I did find diminishing returns after a couple of months, I do recommend anyone spend some time working with one if possible. Many companies (like mine) offer benefits.
@@ -38,7 +37,7 @@ Next, we calculated that if I wanted to lose about one pound a week. A pound of 
 
 We also calculated what my “macros” should look like. We calculated that I should land somewhere around 280g of carbs, 75g of fat, and 150g of protein. Now, there is currently a frenzy around protein: protein coffee, protein ice cream, protein pasta. Everyone wants more and more protein. The truth is, protein is extremely important, especially if the goal is to not just lose weight but also look “toned / muscular”, which was my goal. However, many fitness “experts” and “influencers” will suggest eating amounts as high as 1.5g per lb of bodyweight. At 230 lbs, there is absolutely no easy way to eat 345g of protein daily. Most people would get sick. From my own research, that number is also a very wrong recommendation.
 
-The body can only utilize so much protein for optimal muscle building, and that number appears somewhere around .73g/lb of lean body mass. That doesn’t mean less than that won’t build muscle, or that more than that is wasteful. But that’s a reasonable number to aim for. For most folks, shooting for somewhere around .7-.8g/1lb of their goal weight is probably good enough. If you want to get down to 150 lbs, aim for 120g protein per day (regardless of your starting weight). Extra protein isn’t bad, and protein is the most satiating macronutrient. I would also argue it is the most important one to "track".
+The body can only utilize so much protein for optimal muscle growth, and that number appears somewhere around .73g/lb of lean body mass. That doesn’t mean less than that won’t build muscle, or that more than that is wasteful (excess is just converted to energy). But that’s a reasonable number to aim for. For most folks, shooting for somewhere around .7-.8g/1lb of their goal weight is probably good enough. If you want to get down to 150 lbs, aim for 120g protein per day (regardless of your starting weight). Extra protein isn’t bad, and protein is the most satiating macronutrient. I would also argue it is the most important one to "track".
 
 That being said, there is merit to eating more carbs and fats, as they are not the enemy! And truthfully, there are no good / bad foods. ANY food can be included as part of a nutrition plan. A good rule of thumb is to reserve 10% of your daily calories to eating whatever the hell you want. Ice cream, chips, whatever. 
 
@@ -49,6 +48,7 @@ In terms of my own diet plan, what helped a lot for me was to save most of my ca
 BUT, I did change my strategy when I did eat out. Notably, I reduced my alcohol consumption significantly. From a health perspective, alcohol is terrible and very high in calories. In most scenarios where I may have had two drinks out, I instead had zero or one. Still, I had a few nights of overconsumption. None one of us are perfect. You’re going to have days where you screw up your diet. It happens. One bad day will not screw up weeks and months of progress. What is extremely important is that you just get back on the plan afterwards. Realize that if you eat 500 calories over maintenance one day and 500 calories under the next while back on your plan, you essentially just spent two days at maintenance. No big deal!!
 
 If you don't want to necessarily cut calories, here are a few easy suggestions that helped me:
+- Buy a digital food scale!! They're under $20 and make a WORLD of difference in knowing exactly how much food you're eating. Minimize "eye-balling" portion sizes, you'd be surprised how easy it is to be way off.
 - Cook with spray oils instead of pouring out of a bottle. Oil is sneakily high in calories. A tbsp of oil has 120 calories. Spraying a pan will usually be around 10 calories.
 - Invest in an air frier. I love air-fried tofu and broccoli, and only lightly spray them with oil.
 - Some foods, like pasta, have variants with protein. I personally **love** [Brami Pasta](https://enjoybrami.com/). It's made from lupini beans and has a ton of protein and fiber. I use it as a 1:1 substitute for regular pasta and it's great!
@@ -75,6 +75,10 @@ I did use protein powder for a while and still have some on hand for days I thin
 
 The best pre-workout in my opinion is a cup of black coffee, a glass of water, and a carb source such as a banana or rice cakes.
 
+### GLP-1s
+
+GLP-1s are truly a game changer for weight loss. I personally know many people who have used them and seen unbelieveable results though I do not know enough to comment on the pros and cons. What I have seen is that they still require a ton of work and lifestyle changes to still be effective, and I commend anyone using any tools at their disposal with proper medical supervision to aid in their weight loss journey. For my own journey, I did not use them. 
+
 ### Vegetarian hacks
 
 As a vegetarian, I've had to get a little creative with my protein sources at times. Here are some of my go-tos. In general, I aim for foods with roughly a 10:1 calorie to protein ratio or better.
@@ -97,7 +101,7 @@ One of my goals for this journey was to no longer be someone who spent their lif
 
 I really enjoy weight lifting. I enjoy getting stronger and tracking my progress over time. If I did nothing else productive in a given day but still made it to the gym, I would still consider that day a win.
 
-Through my RD, I learned that muscle is metabolically active. So while strength and aesthetics are great, building muscle also increases your metabolism. The higher your metabolism, the more calories you burn at rest. How cool is that?!
+Through my RD, I learned that muscle is metabolically active. So while strength and aesthetics are great, building muscle also increases your metabolism. The higher your metabolism, the more calories you burn at rest. How cool is that?! While this isn't a massive difference (~6 calories per lb of muscle), it adds up over time. 
 
 After trying a ton of gym routines, the one that has stuck with me is a four-day upper / lower split. I've been really pleased with this and after a ton of research (and admittedly some tweaking with Gemini) I do the following:
 
@@ -144,6 +148,14 @@ I don't enjoy cardio, but I did do about 30 minutes of incline walking on the tr
 
 Sleep is extremely underrated. Poor sleep leads to poor food choices and poor workout performance. I notice a difference when I get ~6 hours versus 7+ hours. Prioritize high quality sleep. I use an Oura ring to track my "sleep score" and it helped me get into a better groove with going to sleep earlier and making sure quality is higher. Considering we spend 1/3 of our lives in bed, it's worth investing in a good mattress, pillows, and sheets.
 
+### The scale
+
+As someone who loves thinking in terms of numbers, I found the scale to be a helpful tool in my journey. I did weigh myself every single morning repeating the exact routine of waking up, going to the bathroom, and then weighing myself. An important thing to remember here is that weight can fluctuate day-to-day as the amount of water weight we carry can make the scale shift by a few lbs in either direction. This is especially true after a night of eating high sodium foods. No, your dinner didn't cause you to gain two lbs overnight. This goes away in a couple of days.
+
+For me, I gauged progress by the scale hitting new "lows". This usually happened at least once or twice a week where I'd see some amount of downward movement. I also experienced periods where my weight would plateau for a week or two at a time and then all of a sudden my body weight would drop by 2-3 lbs as if seemingly overnight.
+
+But keep in mind, the scale isn't the whole story! Other ways to measure progress are how you feel, how your clothes are fitting, and if your lifts in the gym keep increasing. Some folks also choose to measure once a week, but I preferred daily to account for water weight fluctuations.
+
 ### The timeline
 
 You'll notice I lost 45 lbs in 52 weeks, which is just under a pound a week. While this is a great rate of weight loss, this was not consistent. This was my timeline:
@@ -154,9 +166,21 @@ You'll notice I lost 45 lbs in 52 weeks, which is just under a pound a week. Whi
 
 From what I've read, once you get lean enough (I would say within 20 lbs of your goal weight), fat loss becomes harder and periodic maintenance breaks give your body's hormones a chance to reset before another fat loss phase.
 
+### I'm a little obsessed
+
+I will admit, I did become a bit obsessed with fitness over the last year. There were definitely some moments where I laughed at myself for some of the measures I took, but in the end everything did add up. Here are some notable highlights:
+- Walking around Grand Central Terminal for an hour to get my steps in, and then walking the 40 minutes home from there.
+- Bringing a food scale with me to work.
+- Setting a goal to hit 11k daily steps in March (my 33rd birthday) to get 333,333 steps. I hit 365,102.
+- I won a weight loss contest at my gym for the month of January
+
+### I also lived a wonderful life
+
+That being said, overall I still lived an incredibly fullfilling life and ate a tremendous amount of delicious food along the way. The efforts I made at home and in my free time meant that I COULD go out and enjoy food with my friends. Fitness is not meant to be torture. Difficult? Sure. But the sustainable habits, such as giving myself some smart "cheat" meals when events came up such as weddings or dinners out with friends. I think I will follow this blog up with a future one that distills some of this down into easier-to-process steps for beginners.
+
 ### What now?
 
-Well, it's been an amazing journey. With the knowledge I now have of exercising and diet, I'm confident I will likely never regress to being in the shape I was in when I started a year ago. I feel amazing, love the the body I'm in, and excited to continue seeing where this goes.
+Well, it's been an amazing journey. With the knowledge I now have of exercising and diet, I'm confident I will likely never regress to being in the shape I was in when I started a year ago. I feel amazing, love the the body I'm in, I've dropped multiple clothing sizes, and I'm excited to continue seeing where this goes.
 
 Despite having lost 45 lbs, I want to still lose a little more to really lean into that "shredded" look. We'll see where I'm at after maybe cutting another 8 lbs. Then, I'll probably just focus on maintaining my current weight over the summer, before switching into a "lean bulk" for the colder months (eating 300-500 calories above maintenance to build muscle).
 
