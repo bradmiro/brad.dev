@@ -69,7 +69,7 @@ main {
   }
 
   .content {
-    @media screen and (min-width: $mobileW + 1) {
+    @media screen and (min-width: ($mobileW + 1)) {
       max-width: calc(100% - #{$leftWidth});
       margin-left: $leftWidth;
       width: 100%;
@@ -86,7 +86,7 @@ main {
     @media screen and (max-width: $smallMobileW) {
       padding: 5vh 20px;
     }
-    @media screen and (min-width: $mobileW + 1) {
+    @media screen and (min-width: ($mobileW + 1)) {
       position: fixed;
       max-width: 280px;
     }
@@ -338,6 +338,27 @@ footer {
 }
 
 .equal-size {
+  display: inline-block;
+  width: 48%;
   object-fit: cover;
   aspect-ratio: 3 / 4;
+  border-radius: 4px;
+}
+
+.side-by-side {
+  display: flex;
+  gap: 2%;
+  justify-content: space-between;
+  margin: 1.5em 0;
+}
+
+.side-by-side > p {
+  display: flex;
+  width: 100%;
+  gap: 2%;
+  margin: 0;
+}
+
+.side-by-side img, .side-by-side a {
+  width: 49%;
 }
