@@ -22,6 +22,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("favicon.ico");
   eleventyConfig.addPassthroughCopy("site.webmanifest");
   eleventyConfig.addPassthroughCopy("CNAME");
+  eleventyConfig.addPassthroughCopy("_site/.nojekyll");
 
   eleventyConfig.setLiquidOptions({
     dynamicPartials: false,
@@ -73,8 +74,9 @@ module.exports = function(eleventyConfig) {
   });
 
   return {
+    pathPrefix: "/brad.dev/",
     dir: {
-      input: ".",
+      input: "src",
       includes: "_includes",
       layouts: "_layouts",
       output: "_site"
