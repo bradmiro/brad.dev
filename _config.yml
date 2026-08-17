@@ -43,6 +43,6 @@ plainwhite:
     - title: "Posts"
       url: "/posts"
   
-  portfolio_image: "assets/portfolio2.png"
-  portfolio_image_dark: "assets/portfolio2.png"
+  portfolio_image: "assets/portfolio2.JPG"
+  portfolio_image_dark: "assets/portfolio2JPG"
 theme: jekyll-theme-cayman
