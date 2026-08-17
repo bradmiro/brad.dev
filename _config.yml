@@ -44,5 +44,5 @@ plainwhite:
       url: "/posts"
   
   portfolio_image: "assets/portfolio2.JPG"
-  portfolio_image_dark: "assets/portfolio2JPG"
+  portfolio_image_dark: "assets/portfolio2.JPG"
 theme: jekyll-theme-cayman
