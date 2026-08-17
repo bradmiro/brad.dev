@@ -1,0 +1,111 @@
+/* ─── Modern entrance & interaction animations ─── */
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInScale {
+  from {
+    opacity: 0;
+    transform: scale(0.92);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Page element entrances */
+.about {
+  animation: slideInLeft 0.6s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.about-title img {
+  animation: fadeInScale 0.7s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.about-title img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Nav items stagger */
+.navigation ul li {
+  opacity: 0;
+  animation: fadeInUp 0.5s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.navigation ul li:nth-child(1) { animation-delay: 0.23s; }
+.navigation ul li:nth-child(2) { animation-delay: 0.31s; }
+.navigation ul li:nth-child(3) { animation-delay: 0.39s; }
+.navigation ul li:nth-child(4) { animation-delay: 0.47s; }
+.navigation ul li:nth-child(5) { animation-delay: 0.55s; }
+
+/* Social link hover lift */
+.social a {
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), color 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+}
+.social a:hover {
+  transform: translateY(-3px) scale(1.08);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Post cards stagger in */
+.posts li:not(.posts-labelgroup) {
+  opacity: 0;
+  animation: fadeInUp 0.6s cubic-bezier(0.16, 1, 0.3, 1) both;
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s ease;
+}
+.posts li:not(.posts-labelgroup):hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px -8px rgba(0, 0, 0, 0.08);
+}
+
+.posts li:nth-child(2) { animation-delay: 0.19s; }
+.posts li:nth-child(3) { animation-delay: 0.28s; }
+.posts li:nth-child(4) { animation-delay: 0.37s; }
+.posts li:nth-child(5) { animation-delay: 0.46s; }
+.posts li:nth-child(6) { animation-delay: 0.55s; }
+
+/* Content section entrance */
+.content {
+  animation: fadeInUp 0.6s 0.1s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.post-container {
+  animation: fadeInUp 0.6s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+/* Respect user preference for reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .about,
+  .about-title img,
+  .navigation ul li,
+  .social a,
+  .posts li:not(.posts-labelgroup),
+  .post-container,
+  .content {
+    animation: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+    transition-duration: 0.01ms !important;
+  }
+}

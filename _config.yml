@@ -29,9 +29,9 @@ plainwhite:
   tagline: Google Cloud Developer Advocate
   
   social_links:
-    twitter: bradmiro
     github: bradmiro
     linkedIn: in/brad-miro
+    medium: bradmiro
 
   dark_mode: true
 
@@ -40,6 +40,8 @@ plainwhite:
       url: "/portfolio"
     - title: About Me
       url: "/about"
+    - title: "Posts"
+      url: "/posts"
   
   portfolio_image: "assets/portfolio.png"
   portfolio_image_dark: "assets/portfolio.png"

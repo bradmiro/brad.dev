@@ -1,0 +1,28 @@
+---
+layout: default
+---
+<div class="post-container">
+  <a class="post-link" href="{{ page.url | relative_url }}">
+    <h2 class="post-title">{{ title | default: page.title | escape }}</h2>
+  </a>
+  <div class="post-meta">
+    {%- if date -%}
+    <div class="post-date"><i class="icon-calendar"></i>{{ date | date: "%b %-d, %Y" }}</div>
+    {%- endif -%}
+    {%- if categories.size > 0 -%}
+    <ul class="post-categories">
+      {%- for tag in categories -%}
+      <li>{{ tag }}</li>
+      {%- endfor -%}
+    </ul>
+    {%- endif -%}
+  </div>
+  <div class="post">
+    {%- if external_url -%}
+    <blockquote>
+      <p>This article was originally published on Medium. <a href="{{ external_url }}" target="_blank" rel="noopener noreferrer">Read the full story on Medium ↗</a></p>
+    </blockquote>
+    {%- endif -%}
+    {{ content }}
+  </div>
+</div>

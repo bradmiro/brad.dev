@@ -1,36 +1,148 @@
-.dark,
-.dark * {
-	$dark_text_color: #f6f6f6;
-	$dark_link_color: #4da3ff;
-	background-color: #171717;
-	color: $dark_text_color;
-	border-color: #e6e6e6;
+$dark_bg: #0f172a;
+$dark_surface: #1e293b;
+$dark_border: #334155;
+$dark_text: #e2e8f0;
+$dark_text_muted: #94a3b8;
+$dark_link: #60a5fa;
+$dark_link_hover: #93bbfc;
 
-	.about{
+html.dark,
+body.dark,
+.dark {
+	background-color: $dark_bg;
+	color: $dark_text;
+}
+
+.dark {
+	.about {
 		img.light {
 			display: none;
 		}
 		img.dark {
 			display: inline;
 		}
+		img {
+			border-color: $dark_border;
+			box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.4);
+		}
+		h2 a {
+			color: $dark_text !important;
+			&:hover {
+				color: $dark_link !important;
+			}
+		}
+		.tagline {
+			color: $dark_text_muted;
+		}
 	}
-	.post p {
-		color: #ddd;
+
+	h1, h2, h3, h4, h5, h6 {
+		color: $dark_text;
+	}
+
+	.social a {
+		background: rgba(30, 41, 59, 0.8);
+		border-color: $dark_border;
+		color: $dark_text_muted;
+		&:hover {
+			color: $dark_link;
+			border-color: $dark_link;
+		}
+	}
+
+	.navigation ul a {
+		color: $dark_text_muted;
+		&:hover {
+			color: $dark_link;
+			background: rgba(96, 165, 250, 0.08);
+		}
+	}
+
+	.post {
+		color: #cbd5e1;
+
+		p {
+			color: #cbd5e1;
+		}
+
+		h1, h2, h3, h4, h5, h6 {
+			color: $dark_text;
+		}
+
+		code {
+			background: rgba(15, 23, 42, 0.6);
+			color: $dark_text;
+		}
+
+		pre {
+			background: #020617;
+			border: 1px solid $dark_border;
+			code {
+				background: transparent;
+			}
+		}
+
+		blockquote {
+			background: rgba(96, 165, 250, 0.06);
+			border-left-color: $dark_link;
+			color: $dark_text_muted;
+		}
+	}
+
+	.post-wrapper {
+		border-bottom-color: $dark_border;
+	}
+
+	.post-date {
+		color: $dark_text_muted;
 	}
 
 	.social [class^="icon-"] {
-		color: $dark_text_color
+		color: $dark_text_muted;
 	}
 
 	#posts-label {
-		color: $dark_text_color;
-		border-bottom: 1px solid #272727;
+		color: $dark_text_muted;
+	}
+
+	.posts-labelgroup {
+		border-bottom-color: $dark_border;
+	}
+
+	.posts li:not(.posts-labelgroup) {
+		background: $dark_surface;
+		border-color: $dark_border;
+		box-shadow: 0 4px 15px -3px rgba(0, 0, 0, 0.2);
+
+		.post-link {
+			color: $dark_text !important;
+			&:hover {
+				color: $dark_link !important;
+			}
+		}
+		.post-meta {
+			color: $dark_text_muted;
+		}
+	}
+
+	.post-container {
+		background: $dark_surface;
+		border-color: $dark_border;
+		box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.3);
+	}
+
+	.post-title {
+		color: $dark_text;
+	}
+
+	.post-categories li {
+		background-color: rgba(96, 165, 250, 0.15);
+		color: $dark_link;
 	}
 
 	@import 'ext/solarized-dark';
-	.highlight, .highlight *
-	{
-		background-color: #00080a;
+	.highlight, .highlight * {
+		background-color: #020617;
 		color: #93a1a1;
 	}
 
@@ -38,80 +150,51 @@
 		padding: 5px 20px;
 	}
 	pre.highlight-dark, code {
-		font-family: 'Consolas', Menlo, monospace;
+		font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
 		line-height: 1.4em;
 		tab-size: 4;
 	}
 
-	.post-categories {
-		li {
-			background-color: #333;
-			color: #fff;
-		}
-	}
-
 	a {
-		color: $dark_link_color;
+		color: $dark_link;
+		&:hover {
+			color: $dark_link_hover;
+		}
 	}
 	#title a {
-		color: #fff;
+		color: $dark_text;
 		&:hover {
-			color: $dark_link_color;
+			color: $dark_link;
 		}
 	}
 
-	.posts-labelgroup {
+	.search-results {
+		background-color: $dark_surface;
+		border-color: $dark_border;
 
-		border-bottom: 1px solid #333;
-		.search-results {
-			background-color: #333;
-
-			a {
-				color: white;
-
-				&:hover {
-					background-color: #171717;
-				}
+		a {
+			color: $dark_text;
+			&:hover {
+				background-color: $dark_bg;
 			}
 		}
+	}
 
-		.search-section i {
-			background-color: transparent;
+	.search-section i {
+		background-color: transparent;
+	}
+
+	table {
+		th, td {
+			border: 1px solid $dark_border;
+		}
+		th {
+			background-color: $dark_surface;
+			color: $dark_text;
 		}
 	}
 
-	.posts-labelgroup:hover {
-
-		i {
-			color: white;
-		}
-
-		input {
-			color: white;
-		}
-	}
-
-
-	.posts-labelgroup.focus-within {
-
-		.search-section {
-			background-color: #333;
-		}
-
-		input {
-			color: $dark_text_color;
-		}
-
-		i {
-			color: white;
-		}
-	}
-}
-.dark table {
-	th, td {
-		border: 1px solid #333;
-	}
-	th {
-		background-color: #0d0d0d;
+	.about-footer p {
+		color: $dark_text_muted;
 	}
 }

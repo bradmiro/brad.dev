@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+{%- if page.title -%}
+  <h1 class="page-heading">{{ page.title }}</h1>
+{%- endif -%}
+
+{{ content }}
+
+{%- if collections.post.length > 0 -%}
+  <ul class="posts">
+    <li class="posts-labelgroup" id="posts-labelgroup">
+      <h1 id="posts-label">posts</h1>
+    </li>
+    {% for post in collections.post %}
+      <li>
+        <span class="post-meta">{{ post.data.date | date: "%b %-d, %Y" }}</span>
+        {% if post.data.external_url %}
+        <a class="post-link" href="{{ post.data.external_url }}" target="_blank" rel="noopener noreferrer">
+          {{ post.data.title | escape }}
+          <span style="font-size: 0.8em; opacity: 0.75; margin-left: 4px;">↗</span>
+        </a>
+        {% else %}
+        <a class="post-link" href="{{ post.url | relative_url }}">{{ post.data.title | escape }}</a>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+{%- endif -%}
