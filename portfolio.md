@@ -9,6 +9,10 @@ title: Portfolio
 ##### Updated 2026
 
 ### Videos & Presentations:
+- [Supercharging Apache Spark Lakehouses: Inside Apache Iceberg v3 and the Road to V4](https://luma.com/3rm6r8u2) at NYC Apache Spark Meetup
+- [TechByte: Building secure, data-aware agents with Gemini Enterprise and the borderless Lakehouse](https://cloudonair.withgoogle.com/events/techbyte-building-secure-data-aware-agents-with-gemini-enterprise) at Google Cloud OnAir
+- [Modernizing from Cloudera to the Google Data Cloud](https://cloudonair.withgoogle.com/events/modernizing-from-cloudera-to-google-data-cloud) at Google Cloud OnAir
+- [Build cross-cloud agents with the borderless Lakehouse](https://www.youtube.com/watch?v=6uk0XHrfMs0)
 - [AI-Ready Data Cloud](https://www.youtube.com/watch?v=A3-aMcZpFb4) at [AI Agents Live and Labs NYC](https://cloud.google.com/events/ai-agents-live)
 - [How Gemini and LangChain can supercharge your time series data](https://www.youtube.com/watch?v=fc4IGsauStE)
 - [Building an Open Lakehouse powered by Apache Iceberg and Apache Beam](https://www.youtube.com/watch?v=e_kQ4HUMiTg) at [Beam Summit](https://beamsummit.org/)
@@ -21,6 +25,7 @@ title: Portfolio
 - [Python Distributed Machine Learning](https://www.youtube.com/watch?v=eVvjbTZc1CM) at PyGotham 2019
 
 ### Codelabs & Interactive Tutorials:
+- [Platform Engineering on Managed Service for Apache Spark using Gemini and MCP](https://codelabs.developers.google.com/managed-spark-ai-toolkit)
 - [Accelerate Spark with Managed Service for Apache Spark and Lightning Engine](https://codelabs.developers.google.com/spark-gluten-engine)
 - [Create Spark ML models with Managed Service for Apache Spark](https://codelabs.developers.google.com/spark-ml-dataproc)
 - [Managed Service for Apache Spark](https://codelabs.developers.google.com/dataproc-serverless#0)
